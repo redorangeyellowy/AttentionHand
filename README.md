@@ -1,4 +1,4 @@
-# [ECCV 2024] AttentionHand: Text-driven Controllable Hand Image Generation for 3D Hand Reconstruction in the Wild
+# [ECCV 2024 - Oral] AttentionHand: Text-driven Controllable Hand Image Generation for 3D Hand Reconstruction in the Wild
 [![arXiv](https://img.shields.io/badge/arXiv-2407.18034-b31b1b.svg
 )](https://arxiv.org/abs/2407.18034)
 [![Project Page](https://img.shields.io/badge/Project-Page-Green)](https://redorangeyellowy.github.io/AttentionHand/)
@@ -15,6 +15,8 @@
 ## What's New<a name="news"></a>
 
 [TBD] We will release code ASAP!
+
+[2024/08/12] :rocket: Our paper will be introduced as **oral presentation** at ECCV 2024!
 
 [2024/07/03] :fire: Our paper is accepted by ECCV 2024!
 
