@@ -111,9 +111,3 @@ if __name__ == "__main__":
             cv2.imwrite(os.path.join('result_' + str(pair_id).zfill(3) + '_' + str(result_id) + '.png'), result)
 
     print("Finished.")
-
-    #         for result_id, result in enumerate(results):
-    #             result = cv2.cvtColor(result, cv2.COLOR_BGR2RGB)
-    #             cv2.imwrite(os.path.join(save_folder, 'result_' + str(result_id) + '.png'), result)
-    
-    # print("Finished.")
