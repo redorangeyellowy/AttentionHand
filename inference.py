@@ -112,57 +112,6 @@ if __name__ == "__main__":
 
     print("Finished.")
 
-    # a_prompt = ''
-    # n_prompt = ''
-    # num_samples = 4
-    # image_resolution = 512
-    # ddim_steps = 20
-    # strength = 1.0
-    # scale = 9.0
-    # seed = 42
-    # eta = 0.0
-    # guess_mode = False
-    
-    # texts = [
-    #     'A woman sitting in front of a laptop computer.',
-    #     'A boy in a plaid shirt holding an umbrella.',
-    #     'A man holding the bridles of a horse.',
-    #     'Man in mid bite of pizza with wall behind.',
-    #     'A man holding a camera up over his left shoulder.',
-    #     'A man on a boat holding his dog in his lap.',
-    #     'A man kneeling down next to a brown dog.',
-    #     'A tray topped with bowls of different kinds of food.',
-    #     'A man is holding skis and ski poles.',
-    #     'A man cutting up a large sandwich in a kitchen.',
-    #     'A man with eyeglasses working on a laptop computer.',
-    #     'A young boy standing next to a fire hydrant on green grass.',
-    #     'A man in a hat is holding two cell phones.',
-    #     'A man and woman standing together talking.',
-    #     'A bearded man in a red cap on a skateboard.',
-    #     'A man taking on a cell phone. The man is wearing a formal outfit.',
-    #     'A tennis player in action holding his racket.',
-    #     'A young man pauses while eating a sandwich.',
-    #     'A boy is playing video games in his bedroom.',
-    #     'A man reading something on his cell phone.',
-    #     'A kid eating a doughnut at a table.',
-    #     'A man using a laptop in a cafe.',
-    #     'A young man in a kitchen shapes dough into balls.',
-    #     'A man with headphones around his neck and holding a skateboard.'
-    # ]
-    # mesh_paths = sorted(glob('/database2/hand/backup/eccv/mscoco/images_render_bighand_upgrade/train2017/*'))
-    # for mesh_path in tqdm(mesh_paths, desc='mesh'):
-    #     for text_id, text in enumerate(tqdm(texts, desc='text')):
-    #         mesh_id = mesh_path.split('/')[-1][:-4]
-    #         save_folder = os.path.join('result', mesh_id, 'text_' + str(text_id).zfill(2))
-    #         os.makedirs(save_folder, exist_ok=True)
-    #         mesh_img = cv2.imread(mesh_path, cv2.IMREAD_GRAYSCALE)
-    #         mesh_img = cv2.resize(mesh_img, (512, 512))
-    #         cv2.imwrite(os.path.join(save_folder, 'mesh.png'), mesh_img)
-    #         with open(os.path.join(save_folder, 'text.txt'), 'w') as f:
-    #             f.write(text)
-    #         f.close()
-    #         results = process(mesh_img, text, a_prompt, n_prompt, num_samples, image_resolution, ddim_steps, guess_mode, strength, scale, seed, eta)
-
     #         for result_id, result in enumerate(results):
     #             result = cv2.cvtColor(result, cv2.COLOR_BGR2RGB)
     #             cv2.imwrite(os.path.join(save_folder, 'result_' + str(result_id) + '.png'), result)
