@@ -41,9 +41,9 @@ pip install -r requirements.txt
 
 ## Inference
 
-1. Download our pre-trained model `attentionhand.ckpt` from [here](https://drive.google.com/drive/folders/1YC-eaTPW5ZtkWQe3y5XXw1-jndmQ-NlO?usp=drive_link).
-2. Set your own modalities in `samples`. (But, we provide some samples for fast implementation.)
-3. Put samples and downloaded weight as follows.
+1. ~~Download our pre-trained model `attentionhand.ckpt` from [here](https://drive.google.com/drive/folders/1YC-eaTPW5ZtkWQe3y5XXw1-jndmQ-NlO?usp=drive_link).~~ I will update the checkpoint ASAP. Alternatively, you can train from the scratch on your own as described in [here](https://github.com/redorangeyellowy/AttentionHand?tab=readme-ov-file#train-from-scratch).
+3. Set your own modalities in `samples`. (But, we provide some samples for fast implementation.)
+4. Put samples and downloaded weight as follows.
 ```
 ${ROOT}
 |-- samples
@@ -79,7 +79,7 @@ ${ROOT}
 
 ## Fine-tuning
 
-1. Download our pre-trained model `attentionhand.ckpt` from [here](https://drive.google.com/drive/folders/1YC-eaTPW5ZtkWQe3y5XXw1-jndmQ-NlO?usp=drive_link).
+1. ~~Download our pre-trained model `attentionhand.ckpt` from [here](https://drive.google.com/drive/folders/1YC-eaTPW5ZtkWQe3y5XXw1-jndmQ-NlO?usp=drive_link).~~ I will update the checkpoint ASAP. Alternatively, you can train from the scratch on your own as described in [here](https://github.com/redorangeyellowy/AttentionHand?tab=readme-ov-file#train-from-scratch).
 2. Set your own modalities in `data` as `datasets.tar.gz` in [here](https://drive.google.com/drive/folders/1YC-eaTPW5ZtkWQe3y5XXw1-jndmQ-NlO?usp=drive_link).
 3. Put downloaded weight and dataset as follows.
 ```
