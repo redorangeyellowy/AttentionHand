@@ -6,7 +6,7 @@
 
 > **AttentionHand: Text-driven Controllable Hand Image Generation for 3D Hand Reconstruction in the Wild**
 >
-> [Junho Park*](https://redorangeyellowy.github.io/), [Kyeongbo Kong*](https://scholar.google.com/citations?user=O9QSF7UAAAAJ&hl=ko&oi=ao) and [Suk-Ju Kang†](https://scholar.google.com/citations?user=3WYxpuYAAAAJ&hl=ko&oi=ao)
+> [Junho Park*](https://redorangeyellowy.github.io/), [Kyeongbo Kong*](https://www.pnu-cvsp.com/) and [Suk-Ju Kang†](https://vds.sogang.ac.kr/)
 > 
 > (\* Equal contribution, † Corresponding author)
 >
