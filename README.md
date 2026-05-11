@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 ## Inference
 
-1. Download our pre-trained model `attentionhand.ckpt` from [here](https://drive.google.com/drive/folders/1YC-eaTPW5ZtkWQe3y5XXw1-jndmQ-NlO?usp=drive_link).
+1. Download our pre-trained model `attentionhand.ckpt` from [here]().
 3. Set your own modalities in `samples`. (But, we provide some samples for fast implementation.)
 4. Put samples and downloaded weight as follows.
 ```
@@ -59,8 +59,8 @@ ${ROOT}
 
 ## Train from scratch
 
-1. Download initial model `sd15_ini.ckpt` from [here](https://drive.google.com/drive/folders/1YC-eaTPW5ZtkWQe3y5XXw1-jndmQ-NlO?usp=drive_link).
-2. Download pre-processed dataset `dataset.tar.gz` from [here](https://drive.google.com/drive/folders/1YC-eaTPW5ZtkWQe3y5XXw1-jndmQ-NlO?usp=drive_link).
+1. Download initial model `sd15_ini.ckpt` from [here](https://drive.google.com/file/d/1gRsNx-igVlitokrV_nHrv1KloeQzrJ8E/view?usp=sharing).
+2. Download pre-processed dataset `dataset.tar.gz` from [here](https://drive.google.com/file/d/1i5jN0-i_39mT8AOsFwI9WgEs5MgpcQ9k/view?usp=sharing).
 3. Put downloaded weight and dataset as follows.
 ```
 ${ROOT}
@@ -79,8 +79,8 @@ ${ROOT}
 
 ## Fine-tuning
 
-1. Download our pre-trained model `attentionhand.ckpt` from [here](https://drive.google.com/drive/folders/1YC-eaTPW5ZtkWQe3y5XXw1-jndmQ-NlO?usp=drive_link).
-2. Set your own modalities in `data` as `datasets.tar.gz` in [here](https://drive.google.com/drive/folders/1YC-eaTPW5ZtkWQe3y5XXw1-jndmQ-NlO?usp=drive_link).
+1. Download our pre-trained model `attentionhand.ckpt` from [here]().
+2. Set your own modalities in `data` as `datasets.tar.gz` in [here](https://drive.google.com/file/d/1i5jN0-i_39mT8AOsFwI9WgEs5MgpcQ9k/view?usp=sharing).
 3. Put downloaded weight and dataset as follows.
 ```
 ${ROOT}
